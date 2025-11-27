@@ -1,2 +1,5 @@
-# kite
-A Java library for calling data sources using latest Java features. It provides pipelines and dependency management between data sources, you only need to provide the data transformations and business logic. The library should handle timeouts, exceptions, multi-threading, retrying, etc.
+# Kite
+A Java library for calling HTTP based APIs. It uses latest Java features, like Virtual 
+Threads, pattern matching with sealed classes and records. Another goal is to have zero dependencies.
+
+The library should handle timeouts, exceptions, multi-threading, retrying with backoff strategies, etc.
